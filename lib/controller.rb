@@ -3,11 +3,6 @@ require 'view'
 
 class Controller 
 
-    def initialize
-        # rentrer les attributs ici
-        # @view = View.new
-    end
- 
     def  consult_item
         items = Item.all
         View.all(items)
